@@ -1,0 +1,22 @@
+
+                        try
+                        {
+                            var linksArray = '  https://live.primis.tech/content/video/hls/hls.0.12.4_2.min.js  https://live.primis.tech/content/prebid/prebidVid.5.18.0_9.min.js   https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032322D30332D31355F30347D7B7331373136333832357D7B433132347D7B535A584D7562476C325A586476636D747A6147566C64484D75593239747D7B62656467654368726F6D69756D7D7B716465736B746F707D7B6F77696E646F77737D7B583630307D7B593430307D7B66347D7B7251554A554943386755484A6C596D6C6B526C4245494338674D5341764945354656773D3D7D7B4C31333237387DFEFE&userIpAddr=157.100.74.7&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F99.0.4844.51+Safari%2F537.36+Edg%2F99.0.1150.39&debugInformation=ABT+%2F+PrebidFPD+%2F+1+%2F+NEW&isWePassGdpr=1&schain=1.0%2C1%21theadengine.com%2C%5B1345%5D%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=622933b74fc5d&debugInfo=17163825_ABT+%2F+PrebidFPD+%2F+1+%2F+NEW&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17163825&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2daepwktnomz&secondaryContent=&x=600&y=400&pubUrl=https%3A%2F%2Fes.liveworksheets.com%2Ffn2940186uy&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=100&impGap=1&flow_width=320&flow_height=180&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=-2.1664&geoLong=-79.9011&vpTemplate=13278&flowMode=seenboth&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=es.liveworksheets.com'.split(' ');
+
+                            for(var l = 0; l < linksArray.length; l++)
+                            {
+                                if(linksArray[l].length > 10)
+                                {
+                                    var sc = document.createElement('script');
+                                    sc.type = 'text/javascript';
+                                    sc.async = false;
+                                    sc.src = linksArray[l];
+                                    document.head.appendChild(sc);
+                                }
+                            }
+                        }
+                        catch(e)
+                        {
+                            document.write('<script type="text/javascript" src="https://live.primis.tech/content/video/hls/hls.0.12.4_2.min.js">\x3C/script><script type="text/javascript" src="https://live.primis.tech/content/prebid/prebidVid.5.18.0_9.min.js">\x3C/script><script type=' + "'" + 'text/javascript' + "'" + ' language=' + "'" + 'javascript' + "'" + ' src="https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032322D30332D31355F30347D7B7331373136333832357D7B433132347D7B535A584D7562476C325A586476636D747A6147566C64484D75593239747D7B62656467654368726F6D69756D7D7B716465736B746F707D7B6F77696E646F77737D7B583630307D7B593430307D7B66347D7B7251554A554943386755484A6C596D6C6B526C4245494338674D5341764945354656773D3D7D7B4C31333237387DFEFE&userIpAddr=157.100.74.7&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F99.0.4844.51+Safari%2F537.36+Edg%2F99.0.1150.39&debugInformation=ABT+%2F+PrebidFPD+%2F+1+%2F+NEW&isWePassGdpr=1&schain=1.0%2C1%21theadengine.com%2C%5B1345%5D%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=622933b74fc5d&debugInfo=17163825_ABT+%2F+PrebidFPD+%2F+1+%2F+NEW&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17163825&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2daepwktnomz&secondaryContent=&x=600&y=400&pubUrl=https%3A%2F%2Fes.liveworksheets.com%2Ffn2940186uy&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=100&impGap=1&flow_width=320&flow_height=180&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=-2.1664&geoLong=-79.9011&vpTemplate=13278&flowMode=seenboth&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=es.liveworksheets.com">\x3C/script>');
+                        }
+                        
